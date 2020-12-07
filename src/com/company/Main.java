@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner youName = new Scanner(System.in);
-        System.out.println("Введите имя:  ");
-        String name = youName.nextLine();
-        System.out.print("Привет, " + name +"! Как дела?");
+
+
+        for(int i = args.length -1; i > -1; i--){
+
+            System.out.println("Аргумент в обратном порядке: " + args[i]);
+        }
     }
 }
