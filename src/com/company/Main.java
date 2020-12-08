@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Случайное число выведено : " + name +" раз.");
         System.out.println();
 
-        System.out.println("Введите число количества случайных чисел для вывода c новой строки каждое: ");
+        System.out.println("Введите число  количества случайных чисел для вывода c новой строки каждое: ");
 
         int name2 = number.nextInt();
 
